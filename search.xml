@@ -20,5 +20,12 @@
 <h1 id="超级小爱（连续对话）"><a href="#超级小爱（连续对话）" class="headerlink" title="超级小爱（连续对话）"></a>超级小爱（连续对话）</h1><p>提取超级小爱apk并查看，选择dex编辑器++，搜索方法名“isSupportDuplex<br>”和“isDeviceSupportFullDuplex”，点击进入，上边指南针，长按清空代码，“0x0”改“0x1”，保存并退出</p>
 <h1 id="系统桌面（处理器模糊限制）"><a href="#系统桌面（处理器模糊限制）" class="headerlink" title="系统桌面（处理器模糊限制）"></a>系统桌面（处理器模糊限制）</h1><p>提取桌面apk并查看，选择Dex编辑器++ ，搜索方法名 “isNotSupportBlurDevice”，点开，上边指南针，长按清空代码，保存并退出</p>
 ]]></content>
+      <categories>
+        <category>安卓</category>
+      </categories>
+      <tags>
+        <tag>HyperOS</tag>
+        <tag>教程</tag>
+      </tags>
   </entry>
 </search>
