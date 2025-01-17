@@ -18,7 +18,7 @@
 <h1 id="通讯录（无网通，不保证能用）"><a href="#通讯录（无网通，不保证能用）" class="headerlink" title="通讯录（无网通，不保证能用）"></a>通讯录（无网通，不保证能用）</h1><p>提取通讯录apk并查看，选择dex编辑器++，搜索类名“Lcom&#x2F;miui&#x2F;contacts&#x2F;common&#x2F;SystemUtil;”，点击进入，上边指南针，搜索U，长按清空代码，“0x0”改“0x1”，保存，搜索方法名“isRedmi”，点击进入，清除两项代码（看图），保存并退出</p>
 <p><img src="/img/posts/HyperOS2.0%E8%BD%AF%E4%BB%B6%E5%8E%BB%E9%99%A4%E6%9C%BA%E5%9E%8B%E9%99%90%E5%88%B6%E6%95%99%E7%A8%8B/%E5%9B%BE6.jpg"></p>
 <h1 id="超级小爱（连续对话）"><a href="#超级小爱（连续对话）" class="headerlink" title="超级小爱（连续对话）"></a>超级小爱（连续对话）</h1><p>提取超级小爱apk并查看，选择dex编辑器++，搜索方法名“isSupportDuplex<br>”和“isDeviceSupportFullDuplex”，点击进入，上边指南针，长按清空代码，“0x0”改“0x1”，保存并退出</p>
-<h1 id="系统桌面（处理器模糊限制）"><a href="#系统桌面（处理器模糊限制）" class="headerlink" title="系统桌面（处理器模糊限制）"></a>系统桌面（处理器模糊限制）</h1><p>提取桌面apk并查看，选择Dex编辑器++ ，搜索方法名 “isNotSupportBlurDevice”，点开，上边指南针，长按清空代码，保存并退出</p>
+<h1 id="系统桌面（模糊限制）"><a href="#系统桌面（模糊限制）" class="headerlink" title="系统桌面（模糊限制）"></a>系统桌面（模糊限制）</h1><p>提取桌面apk并查看，选择Dex编辑器++ ，搜索方法名 “isNotSupportBlurDevice”，点开，上边指南针，长按清空代码，保存并退出</p>
 ]]></content>
       <categories>
         <category>安卓</category>
