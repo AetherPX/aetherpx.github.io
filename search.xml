@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
+  <entry>
+    <title>HyperOS 2.0软件去除机型限制教程</title>
+    <url>/2025/01/17/HyperOS2.0%E8%BD%AF%E4%BB%B6%E5%8E%BB%E9%99%A4%E6%9C%BA%E5%9E%8B%E9%99%90%E5%88%B6%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h1><h2 id="arsc-（需mt会员）"><a href="#arsc-（需mt会员）" class="headerlink" title="arsc++（需mt会员）"></a>arsc++（需mt会员）</h2><p>提取小米笔记apk并查看，选择arsc编辑器++，搜索，输入查找内容“DEVICE_BLACKLIST”后点确定，分别点击进入（看图），删除中蓝色部分（小米桑心病狂，两屏幕的黑名单），后保存并退出<br>![](&#x2F;img&#x2F;HyperOS 2.0软件去除机型限制教程&#x2F;图1.jpg)</p>
+<h2 id="arsc（图2）"><a href="#arsc（图2）" class="headerlink" title="arsc（图2）"></a>arsc（图2）</h2><p>提取小米笔记apk并查看，选择arsc编辑器，com.miui.notes - array - array，分别进入”ai_widget_global_device_blacklist”和”ai_widget_device_blacklist”，右上角三点，选择过滤，输入自己的手机代号（不清楚可以前往 <a href="https://miuiver.com/xiaomi-device-codename/">https://miuiver.com/xiaomi-device-codename/</a> 查询，下文所有手机代号都可以在这查），然后确定，长按删除，完成后保存并退出<br>![](&#x2F;img&#x2F;HyperOS 2.0软件去除机型限制教程&#x2F;图2.jpg)</p>
+<h1 id="录音机"><a href="#录音机" class="headerlink" title="录音机"></a>录音机</h1><h2 id="arsc-（需mt会员）-1"><a href="#arsc-（需mt会员）-1" class="headerlink" title="arsc++（需mt会员）"></a>arsc++（需mt会员）</h2><p>提取录音机apk并查看，选择arsc编辑器++，搜索，输入查找内容“support_ai_devices_cn”后点确定，点击进入第一项，如果只需要适配单个或几个机型，就直接把下面例如＂haotian＂的手机代号换成你要适配的设备的代号就OK<br><em>如果要做全适配，建议直接去原版笔记复制黑名单，粘贴到这里面的白名单</em><br>![](&#x2F;img&#x2F;HyperOS 2.0软件去除机型限制教程&#x2F;图3.jpg)</p>
+<h2 id="arsc"><a href="#arsc" class="headerlink" title="arsc"></a>arsc</h2><p>提取录音机apk并查看，选择arsc编辑器，com.android.soundrecorder - array - array，进入”support_ai_devices_cn”，选择任意一个手机代号，改为你使用的手机代号，然后确定，保存并退出<br>![](&#x2F;img&#x2F;HyperOS 2.0软件去除机型限制教程&#x2F;图4.jpg)</p>
+<h1 id="壁纸（ai动态壁纸）"><a href="#壁纸（ai动态壁纸）" class="headerlink" title="壁纸（ai动态壁纸）"></a>壁纸（ai动态壁纸）</h1><p>提取壁纸apk并查看，选择dex编辑器++，搜索方法名“isLiteDevice”和“isLowEndDevice”，点击进入，上边指南针，长按清空代码，保存并退出<br>此操作只能解锁壁纸上对ai动态壁纸的限制，要完全解锁还需要改主题壁纸<br>![](&#x2F;img&#x2F;HyperOS 2.0软件去除机型限制教程&#x2F;图5.jpg)</p>
+<h1 id="主题壁纸"><a href="#主题壁纸" class="headerlink" title="主题壁纸"></a>主题壁纸</h1><h2 id="arsc-（需mt会员，都是那些套路懒得配图了，可以参考录音机）"><a href="#arsc-（需mt会员，都是那些套路懒得配图了，可以参考录音机）" class="headerlink" title="arsc++（需mt会员，都是那些套路懒得配图了，可以参考录音机）"></a>arsc++（需mt会员，都是那些套路懒得配图了，可以参考录音机）</h2><p>提取主题壁纸apk并查看，选择arsc编辑器++，搜索，输入查找内容“ai_record_device”后点确定，点击进入第一项，如果只需要适配单个或几个机型，就直接把下面例如＂haotian＂的手机代号换成你要适配的设备的代号就OK<br><em>如果要做全适配，建议直接去原版笔记复制黑名单，粘贴到这里面的白名单</em></p>
+<h2 id="arsc-1"><a href="#arsc-1" class="headerlink" title="arsc"></a>arsc</h2><p>提取主题壁纸apk并查看，选择arsc编辑器，com.android.thememanager - array - array，进入”ai_record_device”，选择任意一个手机代号，改为你使用的手机代号，然后确定，保存并退出</p>
+<h1 id="通讯录（无网通，不保证能用）"><a href="#通讯录（无网通，不保证能用）" class="headerlink" title="通讯录（无网通，不保证能用）"></a>通讯录（无网通，不保证能用）</h1><p>提取通讯录apk并查看，选择dex编辑器++，搜索类名“Lcom&#x2F;miui&#x2F;contacts&#x2F;common&#x2F;SystemUtil;”，点击进入，上边指南针，搜索U，长按清空代码，“0x0”改“0x1”，保存，搜索方法名“isRedmi”，点击进入，清除两项代码（看图），保存并退出<br>![](&#x2F;img&#x2F;HyperOS 2.0软件去除机型限制教程&#x2F;图6.jpg)</p>
+<h1 id="超级小爱（连续对话）"><a href="#超级小爱（连续对话）" class="headerlink" title="超级小爱（连续对话）"></a>超级小爱（连续对话）</h1><p>提取超级小爱apk并查看，选择dex编辑器++，搜索方法名“isSupportDuplex<br>”和“isDeviceSupportFullDuplex”，点击进入，上边指南针，长按清空代码，“0x0”改“0x1”，保存并退出</p>
+<h1 id="系统桌面（处理器模糊限制）"><a href="#系统桌面（处理器模糊限制）" class="headerlink" title="系统桌面（处理器模糊限制）"></a>系统桌面（处理器模糊限制）</h1><p>提取桌面apk并查看，选择Dex编辑器++ ，搜索方法名 “isNotSupportBlurDevice”，点开，上边指南针，长按清空代码，保存并退出</p>
+]]></content>
+  </entry>
 </search>
