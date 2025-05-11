@@ -60,6 +60,7 @@
     <title>Hyper OS 移植</title>
     <url>/2025/01/18/HyperOS%E7%A7%BB%E6%A4%8D/</url>
     <content><![CDATA[<h1 id="Hyper-移植"><a href="#Hyper-移植" class="headerlink" title="Hyper 移植"></a>Hyper 移植</h1><h2 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h2><p><em><strong>!!!仅适用于marble!!!</strong></em><br><strong>将需要移植的HyperOS文件置于</strong><br><strong>DNA_HyperSuper项目中，再进行分解</strong><br><strong>需分解product system system_ext mi_ext四个分区</strong><br><strong>新版NFC页面修改在vendor分区的prop文件</strong></p>
+<p><em><strong>超级壁纸有无</strong></em><br><strong>是否为支持机型的MIWallpaperOverlay.apk</strong></p>
 <p><em><strong>设置启用小米澎湃AI</strong></em><br><strong>搜索.method public static isAiSupported()Z</strong><br><strong>清空改为0x1</strong></p>
 <p><em><strong>相机启用实验室选项</strong></em><br><strong>搜索camera.lab.options</strong><br><strong>改为0x1</strong><br><em><strong>相机解锁4k60</strong></em><br><strong>c1.v0类中 搜索static s</strong><br><strong>寄存器后第一个0x0</strong><br><strong>改0x1 const&#x2F;4 p0, 0x1</strong><br><em><strong>相机隐私政策</strong></em><br><strong>靠上行</strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://privacy.mi.com/all/%s_%s</span><br></pre></td></tr></table></figure>
