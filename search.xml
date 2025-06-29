@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Arch使用备忘录</title>
-    <url>/2025/06/29/Arch%20Linux%E4%BD%BF%E7%94%A8%E5%A4%87%E5%BF%98%E5%BD%95/</url>
-    <content><![CDATA[<h1 id="livecd联网"><a href="#livecd联网" class="headerlink" title="livecd联网"></a>livecd联网</h1><p>先用<strong>命令 ip link</strong>查看网络接口：</p>
+    <title>Arch Linux配置备忘录</title>
+    <url>/2025/06/29/Arch%20Linux%E9%85%8D%E7%BD%AE%E5%A4%87%E5%BF%98%E5%BD%95/</url>
+    <content><![CDATA[<p><strong>以下内容均可在ArchWiki找到，本人仅作针对自己使用整理</strong></p>
+<h1 id="livecd联网"><a href="#livecd联网" class="headerlink" title="livecd联网"></a>livecd联网</h1><p>先用<strong>命令 ip link</strong>查看网络接口：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ip link</span><br></pre></td></tr></table></figure>
 <p>查看到我的机器的无线网络接口是<strong>wlan0</strong>(不同的机器可能名字不同)，这里以我的无线网络接口wlan0为例。</p>
 <p>默认是关闭的状态，需要先开启它，而开启它之前还需要先激活它(即取消禁用，我这台机器默认是<strong>blockeded</strong>，禁用的)。因此使用以下命令：</p>
