@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo博客搭建备忘录</title>
-    <url>/2025/02/22/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%A4%87%E5%BF%98%E5%BD%95/</url>
-    <content><![CDATA[<p><strong>注：以下默认使用<a href="https://butterfly.js.org/">Butterfly主题</a></strong></p>
-<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><p><strong>命令均需在博客根目录下执行</strong></p>
-<h2 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean&amp;&amp;hexo g&amp;&amp;hexo s</span><br></pre></td></tr></table></figure>
-<h2 id="部署发布"><a href="#部署发布" class="headerlink" title="部署发布"></a>部署发布</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean&amp;&amp;hexo g&amp;&amp;hexo d</span><br></pre></td></tr></table></figure>
-<h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new “标题”</span><br></pre></td></tr></table></figure>
-<h2 id="更新主题"><a href="#更新主题" class="headerlink" title="更新主题"></a>更新主题</h2><p><strong>在主题相应目录下执行</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git pull</span><br></pre></td></tr></table></figure>
-<h2 id="查看已安装的Hexo插件"><a href="#查看已安装的Hexo插件" class="headerlink" title="查看已安装的Hexo插件"></a>查看已安装的Hexo插件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm ls --depth=0</span><br></pre></td></tr></table></figure>
-
-<h1 id="易错点"><a href="#易错点" class="headerlink" title="易错点"></a>易错点</h1><h2 id="图片存放"><a href="#图片存放" class="headerlink" title="图片存放"></a>图片存放</h2><p>博客部署时图片应该存放至<br>&#x2F;Blog&#x2F;themes&#x2F;butterfly&#x2F;source&#x2F;img&#x2F;<br>才能<strong>正常应用新图片</strong></p>
-<h2 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h2><p>Hexo 会自动合并主题中的 _config.yml 和 _config.butterfly.yml 里的配置，如果存在同名配置，会使用 _config.butterfly.yml 的配置，其优先度较高。升级完成后，到 Github 的 <a href="https://github.com/jerryc127/hexo-theme-butterfly/releases">Releases</a> 界面查看新版的更新内容。<br>里面有标注 _config 文件的变更内容（如有），需根据实际情况更新配置内容。</p>
-<h2 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a>_config.yml</h2><h3 id="GitHub推送"><a href="#GitHub推送" class="headerlink" title="GitHub推送"></a>GitHub推送</h3><p>需在_config.yml结尾填写以下内容，<strong>注意缩进</strong><br><strong>使用SSH,需要本地有SSH私钥</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:Github用户名/GitHub用户名.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
-<h3 id="部分配置"><a href="#部分配置" class="headerlink" title="部分配置"></a>部分配置</h3><p>网站时区（timezone）、语言（language）、简介（description）、标题（title）、所有者（author）及指定主题（theme）需在此配置文件设定</p>
-<h1 id="备忘"><a href="#备忘" class="headerlink" title="备忘"></a>备忘</h1><h2 id="安装的插件"><a href="#安装的插件" class="headerlink" title="安装的插件"></a>安装的插件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo-site@0.0.0 /home/用户名/Blog</span><br><span class="line">├── hexo-deployer-git</span><br><span class="line">├── hexo-generator-archive</span><br><span class="line">├── hexo-generator-category</span><br><span class="line">├── hexo-generator-index</span><br><span class="line">├── hexo-generator-searchdb</span><br><span class="line">├── hexo-generator-tag</span><br><span class="line">├── hexo-renderer-ejs</span><br><span class="line">├── hexo-renderer-marked</span><br><span class="line">├── hexo-renderer-pug</span><br><span class="line">├── hexo-renderer-stylus</span><br><span class="line">├── hexo-server</span><br><span class="line">├── hexo-theme-landscape</span><br><span class="line">├── hexo-wordcount</span><br><span class="line">└── hexo</span><br></pre></td></tr></table></figure>
-
-
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Arch Linux配置备忘录</title>
     <url>/2025/06/29/Arch%20Linux%E9%85%8D%E7%BD%AE%E5%A4%87%E5%BF%98%E5%BD%95/</url>
     <content><![CDATA[<p><strong>以下内容均可在ArchWiki找到，本人仅作针对自己使用整理</strong></p>
@@ -82,6 +54,34 @@
       </categories>
       <tags>
         <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo博客搭建备忘录</title>
+    <url>/2025/02/22/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%A4%87%E5%BF%98%E5%BD%95/</url>
+    <content><![CDATA[<p><strong>注：以下默认使用<a href="https://butterfly.js.org/">Butterfly主题</a></strong></p>
+<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><p><strong>命令均需在博客根目录下执行</strong></p>
+<h2 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean&amp;&amp;hexo g&amp;&amp;hexo s</span><br></pre></td></tr></table></figure>
+<h2 id="部署发布"><a href="#部署发布" class="headerlink" title="部署发布"></a>部署发布</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean&amp;&amp;hexo g&amp;&amp;hexo d</span><br></pre></td></tr></table></figure>
+<h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new “标题”</span><br></pre></td></tr></table></figure>
+<h2 id="更新主题"><a href="#更新主题" class="headerlink" title="更新主题"></a>更新主题</h2><p><strong>在主题相应目录下执行</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git pull</span><br></pre></td></tr></table></figure>
+<h2 id="查看已安装的Hexo插件"><a href="#查看已安装的Hexo插件" class="headerlink" title="查看已安装的Hexo插件"></a>查看已安装的Hexo插件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm ls --depth=0</span><br></pre></td></tr></table></figure>
+
+<h1 id="易错点"><a href="#易错点" class="headerlink" title="易错点"></a>易错点</h1><h2 id="图片存放"><a href="#图片存放" class="headerlink" title="图片存放"></a>图片存放</h2><p>博客部署时图片应该存放至<br>&#x2F;Blog&#x2F;themes&#x2F;butterfly&#x2F;source&#x2F;img&#x2F;<br>才能<strong>正常应用新图片</strong></p>
+<h2 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h2><p>Hexo 会自动合并主题中的 _config.yml 和 _config.butterfly.yml 里的配置，如果存在同名配置，会使用 _config.butterfly.yml 的配置，其优先度较高。升级完成后，到 Github 的 <a href="https://github.com/jerryc127/hexo-theme-butterfly/releases">Releases</a> 界面查看新版的更新内容。<br>里面有标注 _config 文件的变更内容（如有），需根据实际情况更新配置内容。</p>
+<h2 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a>_config.yml</h2><h3 id="GitHub推送"><a href="#GitHub推送" class="headerlink" title="GitHub推送"></a>GitHub推送</h3><p>需在_config.yml结尾填写以下内容，<strong>注意缩进</strong><br><strong>使用SSH,需要本地有SSH私钥</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:Github用户名/GitHub用户名.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
+<h3 id="部分配置"><a href="#部分配置" class="headerlink" title="部分配置"></a>部分配置</h3><p>网站时区（timezone）、语言（language）、简介（description）、标题（title）、所有者（author）及指定主题（theme）需在此配置文件设定</p>
+<h1 id="备忘"><a href="#备忘" class="headerlink" title="备忘"></a>备忘</h1><h2 id="安装的插件"><a href="#安装的插件" class="headerlink" title="安装的插件"></a>安装的插件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo-site@0.0.0 /home/用户名/Blog</span><br><span class="line">├── hexo-deployer-git</span><br><span class="line">├── hexo-generator-archive</span><br><span class="line">├── hexo-generator-category</span><br><span class="line">├── hexo-generator-index</span><br><span class="line">├── hexo-generator-searchdb</span><br><span class="line">├── hexo-generator-tag</span><br><span class="line">├── hexo-renderer-ejs</span><br><span class="line">├── hexo-renderer-marked</span><br><span class="line">├── hexo-renderer-pug</span><br><span class="line">├── hexo-renderer-stylus</span><br><span class="line">├── hexo-server</span><br><span class="line">├── hexo-theme-landscape</span><br><span class="line">├── hexo-wordcount</span><br><span class="line">└── hexo</span><br></pre></td></tr></table></figure>
+
+
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
@@ -146,50 +146,6 @@
       <tags>
         <tag>HyperOS</tag>
         <tag>脚本</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小说阅读感想及推荐</title>
-    <url>/2025/07/23/%E5%B0%8F%E8%AF%B4%E9%98%85%E8%AF%BB%E6%84%9F%E6%83%B3%E5%8F%8A%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<p>以下内容存在相关书籍剧透</p>
-<h1 id="来自深渊的我今天也要拯救人类"><a href="#来自深渊的我今天也要拯救人类" class="headerlink" title="来自深渊的我今天也要拯救人类"></a>来自深渊的我今天也要拯救人类</h1><p>本作虽以魂穿开头，但正文鲜有提及，更像是一个独立人格的成长，内容曲折。特点是第一人称描写。一开始只是在b站乱逛看到的一个漫画广告，看到这个标题，我不会后悔我点开了这个广告。</p>
-<p>(几年前看完的，存在遗忘，因此选了原作书评内容)</p>
-<p><strong>作者:一簇西语</strong></p>
-<p><strong>类型:西幻</strong></p>
-<p><strong>本书主角:希尔维嘉·拉比斯赫墨斯&#x2F;佩伊洛(佩佩)</strong><br>主角“希尔维嘉-拉比斯赫墨斯”从懵懂无知天真善良，在经历了一件件灾厄后被最信任的同伴背叛，到后来发现自己所仇视的那股异端竟是为了拯救人类，而曾经的自己所信任所依靠的教会，目的虽也是拯救人类，却选择了比他们口中异端更加心狠手辣，无法被叫做为人的行为。没有明确的善与恶，光与暗，红与黑，每个人都是为了心中所坚守的那份正义行动，恶人不完全的恶，善人也完全的善。人物和人物之间的感情羁绊，黑暗世界观的刻画，组成了这本《深渊》。少女被冠宇“希尔维嘉-拉比斯赫墨斯”之名后从深渊苏醒，像是察觉了她的不同，被所有人憎恶的她却被教宗骑士卡洛斯放过一命。她成为了第一只有思想有着交流能力的“怪物”。面对这个陌生世界的恐惧感让她不断逃亡，想要躲避未知的危险。误打误撞来到一个僻静的小乡村，在那里，少女遇到了她来到这个世界之后的第一个亲人。克莱尔奶奶。并且拥有了喜爱自己的姐姐和哥哥。在被奶奶收养过后的好长一段日子里，少女都在尝试适应这个世界，过着和哥哥姐姐互相打闹的快乐生活，就当她觉得生活应该就会这么平静的发展下去时，变数出现了。卡洛斯找到了这里。在村庄的收获晚会上，少女第一次接触了酒这种东西。没想到强如深渊也无法对酒精这种成分免疫，很快就喝醉倒在了宴会旁边的路口旁。这时，卡洛斯悄然来到了她的面前。</p>
-<p>“你知不知道，我找了你多久啊”..</p>
-<p>主角“希尔维嘉-拉比斯赫墨斯”从懵懂无知天真善良，在经历了一件件灾厄后被最信任的同伴背叛，到后来发现自己所仇视的那股异端竟是为了拯救人类，而曾经的自己所信任所依靠的教会，目的虽也是拯救人类，却选择了比他们口中异端更加心狠手辣，无法被叫做为人的行为。没有明确的善与恶，光与暗，红与黑，每个人都是为了心中所坚守的那份正义行动，恶人不完全的恶，善人也不完全的善。人物和人物之间的感情羁绊，黑暗世界观的刻画，组成了这本《深渊》。少女被冠以“希尔维嘉-拉比斯赫墨斯”之名后从深渊苏醒，像是察觉了她的不同，被所有人憎恶的她却被教宗骑士卡洛斯放过一命。她成为了第一只有思想有着交流能力的“怪物”。面对这个陌生世界的恐惧感让她不断逃亡，想要躲避未知的危险。误打误撞来到一个僻静的小乡村，在那里，少女遇到了她来到这个世界之后的第一个亲人。克莱尔奶奶。并且拥有了喜爱自己的姐姐和哥哥。在被奶奶收养过后的好长一段日子里，少女都在尝试适应这个世界，过着和哥哥姐姐互相打闹的快乐生活，就当她觉得生活应该就会这么平静的发展下去时，变数出现了。</p>
-<p>卡洛斯找到了这里。在村庄的收获晚会上，少女第一次接触了酒这种东西。</p>
-<p>没想到强如深渊也无法对酒精这种成分免疫，很快就喝醉倒在了宴会旁边的路口旁。</p>
-<p>这时，卡洛斯悄然来到了她的面前。</p>
-<p>“你知不知道，我找了你多久啊”..</p>
-<p>少女似乎没有听到这句话，好像已经陷入熟睡，但是卡洛斯隐隐听到少女从嘴边传来的话语。</p>
-<p>“我想要.和奶奶一直生活在这里.和艾丽娅姐姐.还有</p>
-<p>巴里哥哥…”</p>
-<p>少女似乎有了一丝笑意。</p>
-<p>卡洛斯默不作声，看着那熟睡且没有防备的少女。</p>
-<p>“你是真的没有作为怪物的自知啊..”</p>
-<p>“为什么你不跑呢，明明现在杀你这么容易..”</p>
-<p>“你为什么..如此的像一个人类呢”</p>
-<p>我觉得这部小说最强大的地方在它的共情能力，在第一人称视角和第三人称视角的来回切换中，我可以真切的体会到主角的情感，感受到主角的愤怒，陪着主角一起生气，难过，开心。深渊突袭，艾丽娅姐姐为了保护少女，在无尽深渊那滔天的一击面前选择挡在了少女身前。战斗结束后，少女在艾丽娅姐姐的墓前刻下的那句话让我潸然泪下。“我的名字叫艾丽娅，一名勇敢善良的女孩”是啊.你是一个勇敢的女孩，做到了多少骑士都做不到的英勇事迹.在少女最为迷茫且仇视自己也是那杀死艾丽娅姐姐凶手的同类之时，卡洛斯说的那句话让我记忆犹新。“真的能够决定你自己的，并非你是什么，而是你做什么”卡洛斯无异于少女的明灯，照亮了少女那充满迷雾的路。少女第一次见到异国的亲生父母时的迷茫感和得知自己真名为“佩伊洛-古妮薇尔-冬之月”时的不真切感，到后面那压抑的记忆恢复导致的恐惧感和窒息感，少女在帝国晚会喝醉第一次喊公爵和公爵夫人爸爸妈妈时公爵和夫人所流露出的震惊和刻骨铭心的爱，少女被册封为史上最年轻教宗骑士时的自豪感，面对伊森贝尔女王维多利亚时的娇羞感，在王立学院锡兰湖畔1504宿舍和三个室友的羁绊感，面对将整个卡塔洛玛孤儿院的孩子血祭的特蕾莎时那冲天的愤怒，被深渊的意志操控时那股对杀戮嗜血的渴望，清醒过后对自己体内深渊的意志所产生的无力，第一次协助教会前往西洲时面对未知的不安与期待，在沉默之堡目睹被异端蹂躏虐杀的女人和孩子时产生的那刻骨的恨意和面对雄鹿镇那副如人间炼狱的场景时产生的悲愤和无力感。“希尔维嘉，你还是和从前一样，什么都无法守护，无法做到啊”少女对着自己说完，跪在废墟上，嚎啕大哭。这些情感是我和少女一起体会到的。因战败被异端俘虏的第三骑士团和团长尼克-威廉姆斯的那句“第三骑士团，全员.听令.转！身！向！后！让我们最后.再冲一次”骑士们守护住了心中的荣耀，含着必死的决心，转身朝向异端的刀刃。骑士之魂，永垂不巧。扣人心弦，热血沸腾，这些情绪也是我通过少女的视角和骑士团的视角所感受到的。后来少女进入了传说中的巨龙之乡，发现这里并不是自己长久以来听教会所说的那种世界，死气沉沉，毫无生机，这里是巨龙之冢。在这里，少女与罪业女神的神躯展开惨烈的战斗，与异端首领艾尔娜并肩作战，得知了教会的真相，世界的真相。原来，教会并不是得到了神的祝福，而是使用最初神明的力量，囚禁了丰饶母神，从她身上榨出血肉，获取神力，长达千年之久。</p>
-<p>“神，也只不过是一个种族，是站立于这个世界顶端的种族。而古老神明的力量已经无法困住母神太久，封印松动，世界将要迎来神的怒火”少女无法相信异端首领的话，她需要亲自去认证。出了巨龙之乡，望着周围教会的人，望着昔日自己最珍视的同伴，少女不明白，为什么自己的内心里，竟然生出了一丝警惕。果不其然，昔日的同伴朝着自己兵刃相向，少女也终于明白，自己是实验体，自己是教会亲手创造的深渊，为了对抗即将突破封印的母神。尘封的记忆被打开，当年遭受实验时的痛苦在脑中划过，历历在目。信念的倒塌，亲人的离去，所相信之人的背叛..众叛亲离的打击终是没有压垮坚强的少女，反而构筑起了少女成长的桥梁。</p>
-<p>虽然已经完结，但我还是会浮想联翩。假如某一天，当人类发现那个拯救全人类的少女其实也是来自那可怕的灾厄，可怕的深渊的时候，人们会怎么想？是会选择理解且感恩并与她站在一起，还是会选择站在她的对立面？对于人性，只要一股强大到灭世的力量不受自己支配，那么人类就会千方百计去毁灭它。深渊的前期已经能在一众优秀网文中脱颖而出，而在后期我甚至认为它可以上升到文学作品的地步。感谢一簇西语，为我带来了能在闲暇之余去接触的这么精彩的故事。</p>
-<p><strong>PS一个让我震撼的句子:</strong><br>【她眼睛又睁开了，似乎是想了想：“只是个平凡的，一辈子都买不起大城市的房子，碌碌无为的老头罢了。”】</p>
-<p>这句话应该是作者临时起兴写的，与主题内容无关。即便小说删去穿越元素，整体内容也完整。</p>
-<h1 id="Babel-纯白焰火"><a href="#Babel-纯白焰火" class="headerlink" title="Babel:纯白焰火"></a>Babel:纯白焰火</h1><p>本书线索特别明确，使读者有一个明确的目标，知道接下来的方向，但这个方向是大局上的，不会出现一些玄幻小说“只要读一百字,就能将剧情一字不差的叙述出来”的情况。插叙设计的十分精妙，将插叙补充背景.塑造人物形象的作用运用的炉火纯青。情节跌宕起伏，一波三折，张弛有度。文字生动形象，细致入微。角色形象立体传神，各不相同。世界观望造震撼宏大，引人入胜，身临其境。环境塑造很有深度，营造好了氛围。我原称之为神作。<br><strong>网名:白发红瞳少女要复仇可是很认真的</strong></p>
-<p><strong>作者:墨莺儿</strong></p>
-<p><strong>类型:科幻</strong></p>
-<p><strong>主角:珀莉丝·哈芙洱伽德</strong></p>
-<p><em><strong>小说架空了一个设想了因子能科技树，以因子能为能源制造列车，护盾&#x2F;枪械等现代设施及武器。</strong></em></p>
-<p><strong>简介</strong>:收养我的..竟是我的杀父仇人？ 真相大白后，巴别塔摧毁了珀莉丝眼前的一切。 “去洛顿..找到他..” 穿过底比忒的暴风雪、踏过威尔金的花海，直到那通天之塔下僭越 者们所建立的国度，血红色的眸子见证着一个又一个理想的幻灭与 重生、国度的崛起与衰亡。 “你生而有翼，为何竟愿一生匍匐前行，形如虫蚁? 巴别塔所投射出的阴影之下，阿德米尔大陆的图景逐渐展开….</p>
-<p><strong>“我们，在巴别塔的射程之下长大。”</strong><br>高塔如神祇的权杖，悬于地平线，悬于每个人的心头。第一次学院战争，它的光辉瞬间抹去了世界联军的荣光与血肉，将臣服的烙印深深打入大陆的骨髓。联邦自诩人类之智，巴别塔是唯一的真理。<br>巴别塔，联邦的终极权柄，仅仅睁开毁灭之眼。贯穿天地的光柱，就带着神罚般的威严，光芒吞噬了反抗者的残躯，吞噬了街道。穿越威尔金绚烂的花海，踏入衰败的<strong>格莱乌·亚德王国</strong>。巴比塔的光辉摧毁的不仅是他们的军队，更是他们的脊梁和信仰。启明星黯淡无光。被刺杀的女王，焚烧的王女埃希莉娅·亚德·佩希普恩斯。忠诚的侍杯者，将自己活成了王女的影子。<br>–无名何负遗冕？<br>巴别塔竞赛不是赛场，是人性的屠宰场。为了登顶的虚名、为了塔外的“丰厚奖励”，参赛者互相撕咬，将彼此踩入深渊。<br>–伟大的阿卡德米联邦啊！</p>
-<p>经典语句<br><em><strong>文明的呼吸，便是对哈芙洱伽德族的赞歌</strong></em><br><em><strong>文明的延续，便是哈芙洱伽德的赞歌</strong></em><br><em><strong>文明的延续，便是生命的赞歌</strong></em><br><em><strong>“统一？更迭？问何人？以血锻钢之人？亦或是那茅屋里的冻死骨？”</strong></em><br><em><strong>“他说：待纯白色的焰火点燃地平线的通天之塔，便动身。”</strong></em><br><em><strong>天空总会下雨的</strong></em><br><em><strong>“你生而有翼，为何竟愿一生匍匐前进，形如虫蚁？”</strong></em><br><em><strong>“地心引力也束缚着你，所以你生而有翼，就只甘愿在泥泞里爬行一辈子吗？”</strong></em><br><strong>她许愿，愿每一道地平线都再无高塔。</strong></p>
-]]></content>
-      <categories>
-        <category>小说</category>
-      </categories>
-      <tags>
-        <tag>小说</tag>
       </tags>
   </entry>
 </search>
