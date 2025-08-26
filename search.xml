@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo博客搭建备忘录</title>
-    <url>/2025/02/22/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%A4%87%E5%BF%98%E5%BD%95/</url>
-    <content><![CDATA[<p><strong>注：以下默认使用<a href="https://butterfly.js.org/">Butterfly主题</a></strong></p>
-<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><p><strong>命令均需在博客根目录下执行</strong></p>
-<h2 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean&amp;&amp;hexo g&amp;&amp;hexo s</span><br></pre></td></tr></table></figure>
-<h2 id="部署发布"><a href="#部署发布" class="headerlink" title="部署发布"></a>部署发布</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean&amp;&amp;hexo g&amp;&amp;hexo d</span><br></pre></td></tr></table></figure>
-<h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new “标题”</span><br></pre></td></tr></table></figure>
-<h2 id="更新主题"><a href="#更新主题" class="headerlink" title="更新主题"></a>更新主题</h2><p><strong>在主题相应目录下执行</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git pull</span><br></pre></td></tr></table></figure>
-<h2 id="查看已安装的Hexo插件"><a href="#查看已安装的Hexo插件" class="headerlink" title="查看已安装的Hexo插件"></a>查看已安装的Hexo插件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm ls --depth=0</span><br></pre></td></tr></table></figure>
-
-<h1 id="易错点"><a href="#易错点" class="headerlink" title="易错点"></a>易错点</h1><h2 id="图片存放"><a href="#图片存放" class="headerlink" title="图片存放"></a>图片存放</h2><p>博客部署时图片应该存放至<br>&#x2F;Blog&#x2F;themes&#x2F;butterfly&#x2F;source&#x2F;img&#x2F;<br>才能<strong>正常应用新图片</strong></p>
-<h2 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h2><p>Hexo 会自动合并主题中的 _config.yml 和 _config.butterfly.yml 里的配置，如果存在同名配置，会使用 _config.butterfly.yml 的配置，其优先度较高。升级完成后，到 Github 的 <a href="https://github.com/jerryc127/hexo-theme-butterfly/releases">Releases</a> 界面查看新版的更新内容。<br>里面有标注 _config 文件的变更内容（如有），需根据实际情况更新配置内容。</p>
-<h2 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a>_config.yml</h2><h3 id="GitHub推送"><a href="#GitHub推送" class="headerlink" title="GitHub推送"></a>GitHub推送</h3><p>需在_config.yml结尾填写以下内容，<strong>注意缩进</strong><br><strong>使用SSH,需要本地有SSH私钥</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:Github用户名/GitHub用户名.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
-<h3 id="部分配置"><a href="#部分配置" class="headerlink" title="部分配置"></a>部分配置</h3><p>网站时区（timezone）、语言（language）、简介（description）、标题（title）、所有者（author）及指定主题（theme）需在此配置文件设定</p>
-<h1 id="备忘"><a href="#备忘" class="headerlink" title="备忘"></a>备忘</h1><h2 id="安装的插件"><a href="#安装的插件" class="headerlink" title="安装的插件"></a>安装的插件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo-site@0.0.0 /home/用户名/Blog</span><br><span class="line">├── hexo-deployer-git</span><br><span class="line">├── hexo-generator-archive</span><br><span class="line">├── hexo-generator-category</span><br><span class="line">├── hexo-generator-index</span><br><span class="line">├── hexo-generator-searchdb</span><br><span class="line">├── hexo-generator-tag</span><br><span class="line">├── hexo-renderer-ejs</span><br><span class="line">├── hexo-renderer-marked</span><br><span class="line">├── hexo-renderer-pug</span><br><span class="line">├── hexo-renderer-stylus</span><br><span class="line">├── hexo-server</span><br><span class="line">├── hexo-theme-landscape</span><br><span class="line">├── hexo-wordcount</span><br><span class="line">└── hexo</span><br></pre></td></tr></table></figure>
-
-
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Arch Linux配置备忘录</title>
     <url>/2025/06/29/Arch%20Linux%E9%85%8D%E7%BD%AE%E5%A4%87%E5%BF%98%E5%BD%95/</url>
     <content><![CDATA[<p><strong>以下内容均可在ArchWiki找到，本人仅作针对自己使用整理</strong></p>
@@ -85,6 +57,34 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo博客搭建备忘录</title>
+    <url>/2025/02/22/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%A4%87%E5%BF%98%E5%BD%95/</url>
+    <content><![CDATA[<p><strong>注：以下默认使用<a href="https://butterfly.js.org/">Butterfly主题</a></strong></p>
+<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><p><strong>命令均需在博客根目录下执行</strong></p>
+<h2 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean&amp;&amp;hexo g&amp;&amp;hexo s</span><br></pre></td></tr></table></figure>
+<h2 id="部署发布"><a href="#部署发布" class="headerlink" title="部署发布"></a>部署发布</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean&amp;&amp;hexo g&amp;&amp;hexo d</span><br></pre></td></tr></table></figure>
+<h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new “标题”</span><br></pre></td></tr></table></figure>
+<h2 id="更新主题"><a href="#更新主题" class="headerlink" title="更新主题"></a>更新主题</h2><p><strong>在主题相应目录下执行</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git pull</span><br></pre></td></tr></table></figure>
+<h2 id="查看已安装的Hexo插件"><a href="#查看已安装的Hexo插件" class="headerlink" title="查看已安装的Hexo插件"></a>查看已安装的Hexo插件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm ls --depth=0</span><br></pre></td></tr></table></figure>
+
+<h1 id="易错点"><a href="#易错点" class="headerlink" title="易错点"></a>易错点</h1><h2 id="图片存放"><a href="#图片存放" class="headerlink" title="图片存放"></a>图片存放</h2><p>博客部署时图片应该存放至<br>&#x2F;Blog&#x2F;themes&#x2F;butterfly&#x2F;source&#x2F;img&#x2F;<br>才能<strong>正常应用新图片</strong></p>
+<h2 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h2><p>Hexo 会自动合并主题中的 _config.yml 和 _config.butterfly.yml 里的配置，如果存在同名配置，会使用 _config.butterfly.yml 的配置，其优先度较高。升级完成后，到 Github 的 <a href="https://github.com/jerryc127/hexo-theme-butterfly/releases">Releases</a> 界面查看新版的更新内容。<br>里面有标注 _config 文件的变更内容（如有），需根据实际情况更新配置内容。</p>
+<h2 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a>_config.yml</h2><h3 id="GitHub推送"><a href="#GitHub推送" class="headerlink" title="GitHub推送"></a>GitHub推送</h3><p>需在_config.yml结尾填写以下内容，<strong>注意缩进</strong><br><strong>使用SSH,需要本地有SSH私钥</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:Github用户名/GitHub用户名.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
+<h3 id="部分配置"><a href="#部分配置" class="headerlink" title="部分配置"></a>部分配置</h3><p>网站时区（timezone）、语言（language）、简介（description）、标题（title）、所有者（author）及指定主题（theme）需在此配置文件设定</p>
+<h1 id="备忘"><a href="#备忘" class="headerlink" title="备忘"></a>备忘</h1><h2 id="安装的插件"><a href="#安装的插件" class="headerlink" title="安装的插件"></a>安装的插件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo-site@0.0.0 /home/用户名/Blog</span><br><span class="line">├── hexo-deployer-git</span><br><span class="line">├── hexo-generator-archive</span><br><span class="line">├── hexo-generator-category</span><br><span class="line">├── hexo-generator-index</span><br><span class="line">├── hexo-generator-searchdb</span><br><span class="line">├── hexo-generator-tag</span><br><span class="line">├── hexo-renderer-ejs</span><br><span class="line">├── hexo-renderer-marked</span><br><span class="line">├── hexo-renderer-pug</span><br><span class="line">├── hexo-renderer-stylus</span><br><span class="line">├── hexo-server</span><br><span class="line">├── hexo-theme-landscape</span><br><span class="line">├── hexo-wordcount</span><br><span class="line">└── hexo</span><br></pre></td></tr></table></figure>
+
+
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hyper OS 移植</title>
     <url>/2025/01/18/HyperOS%E7%A7%BB%E6%A4%8D/</url>
     <content><![CDATA[<h1 id="Hyper-移植"><a href="#Hyper-移植" class="headerlink" title="Hyper 移植"></a>Hyper 移植</h1><h2 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h2><p><em><strong>!!!以下内容针对marble设计!!!</strong></em><br><strong>将需要移植的HyperOS文件置于</strong><br><strong>DNA_HyperSuper项目中，再进行分解</strong><br><strong>需分解product system system_ext mi_ext四个分区</strong><br><strong>新版NFC页面修改在vendor分区的prop文件</strong></p>
@@ -113,6 +113,7 @@
       <tags>
         <tag>HyperOS</tag>
         <tag>脚本</tag>
+        <tag>安卓</tag>
       </tags>
   </entry>
   <entry>
@@ -152,12 +153,13 @@
 <h3 id="解锁更多快门声音"><a href="#解锁更多快门声音" class="headerlink" title="解锁更多快门声音"></a>解锁更多快门声音</h3><p>需徕卡界面为前置条件<br>搜索字符串pref_custom_sound_tips_key<br>下方invoke-virtual的调用跳转返回0x1</p>
 ]]></content>
       <categories>
-        <category>安卓</category>
         <category>反编译</category>
       </categories>
       <tags>
         <tag>HyperOS</tag>
+        <tag>安卓</tag>
         <tag>相机</tag>
+        <tag>反编译</tag>
       </tags>
   </entry>
 </search>
