@@ -85,31 +85,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hyper OS 移植</title>
-    <url>/2025/01/18/HyperOS%E7%A7%BB%E6%A4%8D/</url>
-    <content><![CDATA[<h1 id="Hyper-移植"><a href="#Hyper-移植" class="headerlink" title="Hyper 移植"></a>Hyper 移植</h1><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><p><em><strong>超级壁纸有无</strong></em><br><strong>是否为支持机型的MIWallpaperOverlay.apk</strong></p>
-<h2 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h2><p><em><strong>设置启用小米澎湃AI</strong></em><br><strong>isAiSupported方法</strong><br><strong>改为0x1</strong><br><em><strong>启用小米青山护眼UI</strong></em><br><strong>isPaperModeCustomDevice方法</strong><br><strong>改为0x1</strong><br><em><strong>启用永不锁屏</strong></em><br><strong>KeyguardTimeoutListPreference类</strong><br><strong>ro.vendor.display.type</strong><br><strong>下面改为0x0</strong><br><em><strong>确认启用扬声器清理prop</strong></em><br><strong>设置搜索isSupportCleanSpeaker方法</strong><br><strong>查看方法内字符串</strong></p>
-<h2 id="prop"><a href="#prop" class="headerlink" title="prop"></a>prop</h2><p><em><strong>小米预加载prop</strong></em><br><strong>系统启动时需要预启动的进程列表</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">persist.sys.prestart.proc</span><br></pre></td></tr></table></figure>
-<p><strong>启用或禁用预加载机制，在系统启动时提前加载应用或服务</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">persist.sys.preload.enable</span><br></pre></td></tr></table></figure>
-<p><strong>启用或禁用启动反馈机制，可能是与用户启动应用时的反馈相关</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">persist.sys.prestart.feedback.enable</span><br></pre></td></tr></table></figure>
-<p><strong>启用或禁用预缓存机制，在启动时缓存某些数据或资源</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">persist.sys.precache.enable</span><br></pre></td></tr></table></figure>
-<p><strong>启用或禁用应用程序 Dex 文件的预加载，提高应用启动速度</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">persist.sys.app_dexfile_preload.enable</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>安卓</category>
-      </categories>
-      <tags>
-        <tag>HyperOS</tag>
-        <tag>脚本</tag>
-        <tag>安卓</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>小米相机修改</title>
     <url>/2025/08/27/%E5%B0%8F%E7%B1%B3%E7%9B%B8%E6%9C%BA%E4%BF%AE%E6%94%B9/</url>
     <content><![CDATA[<h1 id="相机"><a href="#相机" class="headerlink" title="相机"></a>相机</h1><p><em><strong>以下内容基于6.1版本相机</strong></em></p>
@@ -157,9 +132,34 @@
       </categories>
       <tags>
         <tag>HyperOS</tag>
-        <tag>安卓</tag>
         <tag>相机</tag>
+        <tag>安卓</tag>
         <tag>反编译</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hyper OS 移植</title>
+    <url>/2025/01/18/HyperOS%E7%A7%BB%E6%A4%8D/</url>
+    <content><![CDATA[<h1 id="Hyper-移植"><a href="#Hyper-移植" class="headerlink" title="Hyper 移植"></a>Hyper 移植</h1><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><p><em><strong>超级壁纸有无</strong></em><br><strong>是否为支持机型的MIWallpaperOverlay.apk</strong></p>
+<h2 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h2><p><em><strong>设置启用小米澎湃AI</strong></em><br><strong>isAiSupported方法</strong><br><strong>改为0x1</strong><br><em><strong>启用小米青山护眼UI</strong></em><br><strong>isPaperModeCustomDevice方法</strong><br><strong>改为0x1</strong><br><em><strong>启用永不锁屏</strong></em><br><strong>KeyguardTimeoutListPreference类</strong><br><strong>ro.vendor.display.type</strong><br><strong>下面改为0x0</strong><br><em><strong>确认启用扬声器清理prop</strong></em><br><strong>设置搜索isSupportCleanSpeaker方法</strong><br><strong>查看方法内字符串</strong></p>
+<h2 id="prop"><a href="#prop" class="headerlink" title="prop"></a>prop</h2><p><em><strong>小米预加载prop</strong></em><br><strong>系统启动时需要预启动的进程列表</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">persist.sys.prestart.proc</span><br></pre></td></tr></table></figure>
+<p><strong>启用或禁用预加载机制，在系统启动时提前加载应用或服务</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">persist.sys.preload.enable</span><br></pre></td></tr></table></figure>
+<p><strong>启用或禁用启动反馈机制，可能是与用户启动应用时的反馈相关</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">persist.sys.prestart.feedback.enable</span><br></pre></td></tr></table></figure>
+<p><strong>启用或禁用预缓存机制，在启动时缓存某些数据或资源</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">persist.sys.precache.enable</span><br></pre></td></tr></table></figure>
+<p><strong>启用或禁用应用程序 Dex 文件的预加载，提高应用启动速度</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">persist.sys.app_dexfile_preload.enable</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>安卓</category>
+      </categories>
+      <tags>
+        <tag>HyperOS</tag>
+        <tag>安卓</tag>
+        <tag>脚本</tag>
       </tags>
   </entry>
 </search>
