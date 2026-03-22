@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://aetherpx.qzz.io/2025/06/29/Arch%20Linux%E9%85%8D%E7%BD%AE%E5%A4%87%E5%BF%98%E5%BD%95/</loc>
+    
+    <lastmod>2026-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://aetherpx.qzz.io/2025/02/22/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%A4%87%E5%BF%98%E5%BD%95/</loc>
     
     <lastmod>2026-03-22</lastmod>
@@ -23,15 +32,6 @@
     <loc>https://aetherpx.qzz.io/2025/08/27/%E5%B0%8F%E7%B1%B3%E7%9B%B8%E6%9C%BA%E4%BF%AE%E6%94%B9/</loc>
     
     <lastmod>2025-12-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://aetherpx.qzz.io/2025/06/29/Arch%20Linux%E9%85%8D%E7%BD%AE%E5%A4%87%E5%BF%98%E5%BD%95/</loc>
-    
-    <lastmod>2025-09-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
