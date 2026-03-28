@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://aetherpx.qzz.io/2025/06/29/Arch%20Linux%E9%85%8D%E7%BD%AE%E5%A4%87%E5%BF%98%E5%BD%95/</loc>
+    <loc>https://atpx.qzz.io/2025/06/29/Arch%20Linux%E9%85%8D%E7%BD%AE%E5%A4%87%E5%BF%98%E5%BD%95/</loc>
     
     <lastmod>2026-03-22</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://aetherpx.qzz.io/2025/02/22/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%A4%87%E5%BF%98%E5%BD%95/</loc>
+    <loc>https://atpx.qzz.io/2025/02/22/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%A4%87%E5%BF%98%E5%BD%95/</loc>
     
     <lastmod>2026-03-22</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://aetherpx.qzz.io/2025/01/18/HyperOS%E7%A7%BB%E6%A4%8D/</loc>
+    <loc>https://atpx.qzz.io/2025/01/18/HyperOS%E7%A7%BB%E6%A4%8D/</loc>
     
     <lastmod>2026-03-21</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://aetherpx.qzz.io/2025/08/27/%E5%B0%8F%E7%B1%B3%E7%9B%B8%E6%9C%BA%E4%BF%AE%E6%94%B9/</loc>
+    <loc>https://atpx.qzz.io/2025/08/27/%E5%B0%8F%E7%B1%B3%E7%9B%B8%E6%9C%BA%E4%BF%AE%E6%94%B9/</loc>
     
     <lastmod>2025-12-27</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://aetherpx.qzz.io/about/index.html</loc>
+    <loc>https://atpx.qzz.io/about/index.html</loc>
     
     <lastmod>2025-04-20</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://aetherpx.qzz.io/link/index.html</loc>
+    <loc>https://atpx.qzz.io/link/index.html</loc>
     
     <lastmod>2025-01-18</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://aetherpx.qzz.io/categories/index.html</loc>
+    <loc>https://atpx.qzz.io/categories/index.html</loc>
     
     <lastmod>2025-01-17</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://aetherpx.qzz.io/tags/index.html</loc>
+    <loc>https://atpx.qzz.io/tags/index.html</loc>
     
     <lastmod>2025-01-17</lastmod>
     
@@ -75,58 +75,58 @@
   
 
   <url>
-    <loc>https://aetherpx.qzz.io/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://atpx.qzz.io/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://aetherpx.qzz.io/tags/Linux/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://atpx.qzz.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://aetherpx.qzz.io/tags/HyperOS/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://atpx.qzz.io/tags/Linux/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://aetherpx.qzz.io/tags/%E8%84%9A%E6%9C%AC/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://atpx.qzz.io/tags/HyperOS/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://aetherpx.qzz.io/tags/%E5%AE%89%E5%8D%93/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://atpx.qzz.io/tags/%E8%84%9A%E6%9C%AC/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://aetherpx.qzz.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://atpx.qzz.io/tags/%E5%AE%89%E5%8D%93/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://aetherpx.qzz.io/tags/%E7%9B%B8%E6%9C%BA/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://atpx.qzz.io/tags/%E7%9B%B8%E6%9C%BA/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://aetherpx.qzz.io/tags/%E5%8F%8D%E7%BC%96%E8%AF%91/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://atpx.qzz.io/tags/%E5%8F%8D%E7%BC%96%E8%AF%91/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -134,29 +134,29 @@
 
   
   <url>
-    <loc>https://aetherpx.qzz.io/categories/Linux/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://atpx.qzz.io/categories/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://aetherpx.qzz.io/categories/%E5%AE%89%E5%8D%93/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://atpx.qzz.io/categories/Linux/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://aetherpx.qzz.io/categories/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://atpx.qzz.io/categories/%E5%AE%89%E5%8D%93/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://aetherpx.qzz.io/categories/%E5%8F%8D%E7%BC%96%E8%AF%91/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://atpx.qzz.io/categories/%E5%8F%8D%E7%BC%96%E8%AF%91/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
