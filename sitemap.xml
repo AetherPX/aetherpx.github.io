@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://atpx.qzz.io/posts/%E5%B0%8F%E7%B1%B3%E7%9B%B8%E6%9C%BA%E4%BF%AE%E6%94%B9%E7%A7%BB%E6%A4%8D%E6%95%99%E7%A8%8B</loc>
+    <loc>https://atpx.qzz.io/posts/hyperport</loc>
     
     <lastmod>2026-04-04</lastmod>
     
@@ -11,27 +11,27 @@
   </url>
   
   <url>
-    <loc>https://atpx.qzz.io/posts/arch-linux%E9%85%8D%E7%BD%AE%E5%A4%87%E5%BF%98%E5%BD%95</loc>
+    <loc>https://atpx.qzz.io/posts/micamera</loc>
     
-    <lastmod>2026-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://atpx.qzz.io/posts/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%A4%87%E5%BF%98%E5%BD%95</loc>
-    
-    <lastmod>2026-03-22</lastmod>
+    <lastmod>2026-04-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://atpx.qzz.io/posts/hyper-os-%E7%A7%BB%E6%A4%8D</loc>
+    <loc>https://atpx.qzz.io/posts/hexo-blog-note</loc>
     
-    <lastmod>2026-03-21</lastmod>
+    <lastmod>2026-04-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://atpx.qzz.io/posts/arch-note</loc>
+    
+    <lastmod>2026-04-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
